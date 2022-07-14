@@ -87,3 +87,6 @@ def parse_cfg(cfgfile):
         output_filters.append(filters)
         
         return (net_info, module_list)
+    
+blocks = parse_cfg("cfg/yolov3.cfg")
+print(create_modules(blocks))
