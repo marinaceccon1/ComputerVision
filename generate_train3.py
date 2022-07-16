@@ -5,7 +5,7 @@ os.chdir("/content/data/obj/")
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".jpg"):
         image_files.append("/content/data/obj/" + filename)
-os.chdir("..")
+os.chdir("/content/data/")
 with open("train.txt", "w") as outfile:
     for image in image_files:
         outfile.write(image)
