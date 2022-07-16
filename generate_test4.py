@@ -11,4 +11,4 @@ with open("test.txt", "w") as outfile:
         outfile.write(image)
         outfile.write("\n")
     outfile.close()
-os.chdir("..")
+os.chdir("/content/data")
