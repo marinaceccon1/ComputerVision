@@ -4,15 +4,15 @@ import os
 import random
 
 
-label_folder = './labels/'  
+label_folder = '/content/data/obj' 
 
-raw_images_folder = './raw_images/' 
+raw_images_folder = '/content/data/obj' 
 
-save_images_folder = './save_image/'  
+save_images_folder = '/content/save_image'  
 
-name_list_path = './name_list.txt' 
+name_list_path = '/content/namelist.txt' 
 
-classes_path = './classes.txt'
+classes_path = '/content/classes.txt'
 
 
 def plot_one_box(x, image, color=None, label=None, line_thickness=None):
