@@ -1,10 +1,10 @@
 import os
 
 image_files = []
-os.chdir("/content/data/obj")
+os.chdir("/content/drive/MyDrive/Datasets/data/obj")
 for filename in os.listdir(os.getcwd()):
     if filename.endswith(".jpg"):
-        image_files.append("/content/data/obj/" + filename)
+        image_files.append("/content/drive/MyDrive/Datasets/data/obj/" + filename)
 os.chdir("..")
 with open("train.txt", "w") as outfile:
     for image in image_files:
