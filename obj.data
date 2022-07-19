@@ -1,5 +1,5 @@
 classes = 1
-train = /content/data/train.txt
-valid = /content/data/test.txt
+train = /content/drive/MyDrive/Datasets/data/train.txt
+valid = /content/drive/MyDrive/Datasets/data/test.txt
 names = /content/darknet/obj.names
 backup = /content/drive/MyDrive/yolov4/backup
